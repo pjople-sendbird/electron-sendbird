@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hello SendBird!</title>
+    <!--
+        You can use Bootstrap or any similar
+    -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container d-flex  justify-content-center">
+        <div class="m-4">
+            <h1>Hello SendBird!</h1>            
+            <p>
+                We are using Node.js <span id="node-version"></span>,
+            </p>
+            <p>
+                Chromium <span id="chrome-version"></span>
+            </p>
+            <p>
+                And Electron <span id="electron-version"></span>.
+            </p>
+        
+            <div class="m-4 card">
+                <div class="card-header" id="header">
+                    Sendbird test
+                </div>
+                <div class="card-body text-center">
+                    <div id="log">
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" class="form-control" id="appId" placeholder="Application ID?" value="" />
+                                <input type="text" class="form-control mt-2" id="userId" placeholder="User ID?" value="" />
+                                <input type="text" class="form-control mt-2" id="groupChannelUrl" placeholder="Group channel URL?" />
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-primary" id="butConnect">
+                                    Connect
+                                </button>   
+                            </div>
+                        </div>    
+                    </div>                    
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" id="inputMessage" placeholder="Message..." />
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-primary" id="butSendMessage">
+                                Send
+                            </button>            
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+</body>
+</html>
