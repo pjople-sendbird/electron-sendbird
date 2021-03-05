@@ -2,7 +2,7 @@
 
 Run with ```npm start```
 
-## Build
+## Build 
 
 Install Electron packager for your project:
 ```npm install electron-packager --save-d```
