@@ -3,7 +3,7 @@
 1) Get your account at https://www.sendbird.com 
 2) Run this demo and enter you information:
 
-https://github.com/warodri-sendbird/electron-sendbird/blob/main/Screenshot%202021-03-04%20at%2017.40.57.png?raw=true
+![Sendbird](https://github.com/warodri-sendbird/electron-sendbird/blob/main/Screenshot%202021-03-04%20at%2017.40.57.png?raw=true)
 
 
 Run with ```npm start```
