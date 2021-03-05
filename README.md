@@ -1,10 +1,12 @@
 # electron-sendbird
 
 1) Get your account at https://www.sendbird.com 
-2) Run this demo and enter you information:
+2) From your Dashboard, create a group channel and get the URL
+3) Run this demo and enter you information:
 
 ![Sendbird](https://github.com/warodri-sendbird/electron-sendbird/blob/main/Screenshot%202021-03-04%20at%2017.40.57.png?raw=true)
 
+## Run this demo
 
 Run with ```npm start```
 
